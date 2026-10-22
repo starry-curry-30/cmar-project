@@ -41,6 +41,7 @@
     button.addEventListener('click', () => {
       if (typeof dialog.showModal !== 'function') {window.open(button.dataset.enlarge, '_blank', 'noopener');return;}
       enlarged.src = button.dataset.enlarge;
+      enlarged.classList.toggle('white-background-free', button.classList.contains('white-background-free'));
       enlarged.alt = button.querySelector('img')?.alt || 'CMAR-search research figure';
       document.getElementById('figure-dialog-title').textContent = button.closest('figure')?.querySelector('figcaption')?.textContent || 'Research figure';
       dialog.showModal();
