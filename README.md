@@ -8,7 +8,7 @@ Project page for **CMAR-search: Commonsense and Memory Augmented Reasoning for O
 - Video: https://youtu.be/1Qv1jwpRiYA
 - Code: https://github.com/starry-curry-30/CMAR-search
 
-Static HTML, CSS, JavaScript, and paper figures are in `dist/`. The research images are the five figures included in the authors' manuscript. The author-supplied CMAR logo uses navy and ice-blue tones, reflected throughout the page. Logo and figure viewports clip empty outer margins without modifying the original images. The action-planning prompt uses multiply compositing to remove its displayed white background, including in the enlarged view. The layout follows the companion OASIS project page.
+Static HTML, CSS, JavaScript, and paper figures are in `dist/`. The research images are the five figures included in the authors' manuscript. The updated author-supplied CMAR logo is paired with pale yellow, green, and red section colors and resource buttons. Logo and figure viewports clip empty outer margins without modifying the original images. The action-planning prompt uses multiply compositing to remove its displayed white background, including in the enlarged view. The layout follows the companion OASIS project page.
 
 Edit `dist/site-config.js` to update resource links. `dist/index.html` contains the publication metadata and BibTeX. The Paper button and citation link to IEEE Xplore.
 
