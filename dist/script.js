@@ -19,8 +19,6 @@
       link.rel = 'noopener noreferrer';
       link.removeAttribute('aria-disabled');link.removeAttribute('tabindex');
       link.hidden = false;
-      const label = link.querySelector('span');
-      if (label && key !== 'paper') label.textContent = key === 'code' && cfg.codePrivate ? 'Private ↗' : key === 'video' ? 'YouTube ↗' : '↗';
     } else {
       link.removeAttribute('href');
       link.setAttribute('aria-disabled', 'true');

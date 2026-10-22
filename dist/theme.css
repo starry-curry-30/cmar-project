@@ -50,3 +50,6 @@ main::before{background:radial-gradient(ellipse at 12% 8%,#f8df9745,transparent 
 .result-highlights>div:nth-child(3) .result-number{color:#a95c51}
 .site-footer{background:linear-gradient(115deg,#fff6df,#f0f6e9 55%,#fcf0e9)}
 @media(max-width:680px){.hero .hero-logo{width:340px}}
+
+.resource-links .resource-button{display:inline-flex;align-items:center;justify-content:center;flex:0 0 110px;width:110px;height:44px;min-height:44px;padding:0;font-size:14px;line-height:1;box-sizing:border-box}
+@media(max-width:400px){.resource-links{gap:8px}.resource-links .resource-button{flex-basis:86px;width:86px}}
