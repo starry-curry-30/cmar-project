@@ -8,7 +8,7 @@ Project page for **CMAR-search: Commonsense and Memory Augmented Reasoning for O
 - Video: https://youtu.be/1Qv1jwpRiYA
 - Code: https://github.com/starry-curry-30/CMAR-search
 
-Static HTML, CSS, JavaScript, and paper figures are in `dist/`. The research images are the five figures included in the authors' manuscript. The new SVG logo represents functional spaces, a scene graph, remembered observations, and a search lens. The layout follows the companion OASIS project page.
+Static HTML, CSS, JavaScript, and paper figures are in `dist/`. The research images are the five figures included in the authors' manuscript. The SVG logo links a light bulb (commonsense) with stacked cards and a recall arrow (memory). The page uses a blue-violet palette with amber commonsense accents. Figure viewports trim empty outer margins without modifying the paper images. The layout follows the companion OASIS project page.
 
 Edit `dist/site-config.js` to update resource links. `dist/index.html` contains the publication metadata and BibTeX. The Paper button and citation link to IEEE Xplore.
 
