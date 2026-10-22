@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://starry-curry-30.github.io/cmar-project/sitemap.xml
